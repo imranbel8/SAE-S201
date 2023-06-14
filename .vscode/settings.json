@@ -3,6 +3,6 @@
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
-        "C:\\Users\\imran\\Documents\\BUT INFO\\S2\\R201 Java\\SAE"
+        "/SAE-S201"
     ]
 }
