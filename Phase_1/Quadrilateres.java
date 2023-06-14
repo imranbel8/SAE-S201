@@ -1,7 +1,5 @@
 import java.util.ArrayList;
-import ardoise.Forme;
-import ardoise.PointPlan;
-import ardoise.Segment;
+import ardoise.*
 
 public class Quadrilateres extends Forme{
     private PointPlan point1;
