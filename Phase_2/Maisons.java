@@ -1,7 +1,5 @@
 import java.util.ArrayList;
-
-import ardoise.Forme;
-import ardoise.Segment;
+import ardoise.*
 
 public class Maisons extends Forme{
     private Triangles toit;
