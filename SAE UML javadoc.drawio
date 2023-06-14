@@ -1,9 +1,57 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T14:26:25.281Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" version="21.3.8" etag="AnSHhNkGEmN3oXB40x1O" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-14T14:52:02.961Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="o-vstOZbO-5-4fAEAtmT" version="21.3.8" type="github">
   <diagram name="Page-1" id="rqlxTwW8L5zMWgEX4jLy">
-    <mxGraphModel>
+    <mxGraphModel dx="608" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="MC17QwRaCSPvuFqJQv8j-1" value="Segment" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="360" width="280" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="MC17QwRaCSPvuFqJQv8j-2" value="&lt;div&gt;+ pointDepart : PointPlan&lt;/div&gt;&lt;div&gt;+ pointArrivee : PointPlan&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="MC17QwRaCSPvuFqJQv8j-1">
+          <mxGeometry y="26" width="280" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="MC17QwRaCSPvuFqJQv8j-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="MC17QwRaCSPvuFqJQv8j-1">
+          <mxGeometry y="60" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="MC17QwRaCSPvuFqJQv8j-4" value="&lt;div&gt;+ &amp;lt;&amp;lt;Constructeur&amp;gt;&amp;gt;Segment()&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ &amp;lt;&amp;lt;Constructeur&amp;gt;&amp;gt;Segment(PointPlan, PointPlan)&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ deplacer(int, int) : void&lt;/div&gt;+ getPointArrivee() : PointPlan&lt;br&gt;+ getPointDepart() : PointPlan&lt;br&gt;+ setPointArrivee(PointPlan) : void&lt;br&gt;+ setPointDepart(PointPlan) : void&lt;br&gt;+ toString() : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="MC17QwRaCSPvuFqJQv8j-1">
+          <mxGeometry y="68" width="280" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="MC17QwRaCSPvuFqJQv8j-5" value="PointPlan" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="204" y="360" width="210" height="178" as="geometry" />
+        </mxCell>
+        <mxCell id="MC17QwRaCSPvuFqJQv8j-6" value="&lt;div&gt;+ x : int&lt;/div&gt;&lt;div&gt;+ y : int&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="MC17QwRaCSPvuFqJQv8j-5">
+          <mxGeometry y="26" width="210" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="MC17QwRaCSPvuFqJQv8j-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="MC17QwRaCSPvuFqJQv8j-5">
+          <mxGeometry y="70" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="MC17QwRaCSPvuFqJQv8j-8" value="&lt;div&gt;+ &amp;lt;&amp;lt;Constructeur&amp;gt;&amp;gt;PointPlan(int, int)&lt;/div&gt;&lt;div&gt;+ deplacer(int, int) : void&lt;/div&gt;&lt;div&gt;+ getAbscisse() : int&lt;/div&gt;&lt;div&gt;+ getOrdonnee() : int&lt;/div&gt;&lt;div&gt;+ setAbscisse(int) : void&lt;/div&gt;&lt;div&gt;+ toString() : String&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="MC17QwRaCSPvuFqJQv8j-5">
+          <mxGeometry y="78" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MC17QwRaCSPvuFqJQv8j-9" value="Forme" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="80" width="210" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="MC17QwRaCSPvuFqJQv8j-10" value="+ nomForme : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="MC17QwRaCSPvuFqJQv8j-9">
+          <mxGeometry y="26" width="210" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="MC17QwRaCSPvuFqJQv8j-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="MC17QwRaCSPvuFqJQv8j-9">
+          <mxGeometry y="50" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="MC17QwRaCSPvuFqJQv8j-12" value="&lt;div&gt;+ &amp;lt;&amp;lt;Constructeur&amp;gt;&amp;gt;Forme()&lt;/div&gt;&lt;div&gt;+ &amp;lt;&amp;lt;Constructeur&amp;gt;&amp;gt;Forme(String)&lt;/div&gt;&lt;div&gt;+ deplacer(int, int) : void&lt;/div&gt;&lt;div&gt;+ dessiner() : ArrayList&amp;lt;Segment&amp;gt;&lt;/div&gt;&lt;div&gt;+ getNomForme() : String&lt;/div&gt;&lt;div&gt;+ setNomForme(String) :void&lt;/div&gt;&lt;div&gt;+ toString() : String&lt;/div&gt;&lt;div&gt;+ typeForme() : String&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="MC17QwRaCSPvuFqJQv8j-9">
+          <mxGeometry y="58" width="210" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="MC17QwRaCSPvuFqJQv8j-13" value="Ardoise" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="80" width="180" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="MC17QwRaCSPvuFqJQv8j-14" value="&lt;div&gt;+ height : int&lt;/div&gt;&lt;div&gt;+ max_x : int&lt;/div&gt;&lt;div&gt;+ max_y : int&lt;/div&gt;&lt;div&gt;+ min_x : int&lt;/div&gt;&lt;div&gt;+ min_y : int&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ nb_point : int&lt;/div&gt;&lt;div&gt;+ step : int&lt;/div&gt;&lt;div&gt;+ width : int&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="MC17QwRaCSPvuFqJQv8j-13">
+          <mxGeometry y="26" width="180" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="MC17QwRaCSPvuFqJQv8j-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="MC17QwRaCSPvuFqJQv8j-13">
+          <mxGeometry y="150" width="180" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="MC17QwRaCSPvuFqJQv8j-16" value="&lt;div&gt;+ &amp;lt;&amp;lt;Constructeur&amp;gt;&amp;gt;Ardoise()&lt;/div&gt;&lt;div&gt;+ ajouterForme(Forme) : void&lt;/div&gt;&lt;div&gt;+deplacer(String, int, int) : void&lt;/div&gt;&lt;div&gt;+ dessinerGraphique() : void&lt;/div&gt;&lt;div&gt;+ test() : void&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="MC17QwRaCSPvuFqJQv8j-13">
+          <mxGeometry y="158" width="180" height="82" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
