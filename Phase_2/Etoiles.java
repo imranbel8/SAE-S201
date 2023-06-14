@@ -1,7 +1,5 @@
 import java.util.ArrayList;
-
-import ardoise.Forme;
-import ardoise.Segment;
+import ardoise.*
 
 public class Etoiles extends Forme{
     private Chapeaux chapeau1;
